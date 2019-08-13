@@ -34,9 +34,9 @@ Recomendamos o uso da biblioteca AntDesign (https://ant.design/) para os compone
 - Local
   - Deve ser selecionado a partir da API Google Places Autocomplete e salvo como objeto contendo endereço, latitude e longitude.
 - Entregador
-  - Deve ser selecionado um entregador dentre uma lista pré-carregada da API
+  - Deve ser selecionado um entregador dentre uma lista pré-carregada da API a partir de um select
 - Produtos
-  - Devem ser selecionados dentre a lista de produtos cadastrada previamente
+  - Devem ser selecionados dentre a lista de produtos cadastrada previamente a partir de um campo multi-select
 
 Toda entrega cadastrada, recebe na API uma propriedade _estado_ (Pendente) como default.
 
