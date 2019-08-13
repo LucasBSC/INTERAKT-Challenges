@@ -10,7 +10,7 @@ Vamos para os requisitos!
 
 ## Requisitos gerais
 
-A aplicação a ser desenvolvida aborda um fluxo muito comum do setor logístico e trata-se de dois cadastros simples: Entregas e Produtos.
+A aplicação a ser desenvolvida aborda um fluxo muito comum do setor logístico e trata-se de dois cadastros (CRUD's) simples: Entregas e Produtos.
 
 Cada entrega deve ser composta de diversos produtos e ambas entidades possuem algumas propriedades listadas nos requisitos específicos.
 
