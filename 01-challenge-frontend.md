@@ -38,7 +38,7 @@ Recomendamos o uso da biblioteca AntDesign (https://ant.design/) para os compone
 - Produtos
   - Devem ser selecionados dentre a lista de produtos cadastrada previamente a partir de um campo multi-select
 
-Toda entrega cadastrada, recebe na API uma propriedade _estado_ (Pendente) como default.
+Toda entrega cadastrada, recebe na API uma propriedade _estado_ (Pendente) como default. Essa propriedade é passível de alteração via _mutation_.
 
 ### Lista de Entregas
 
@@ -47,7 +47,7 @@ Toda entrega cadastrada, recebe na API uma propriedade _estado_ (Pendente) como 
 
 Deve ser possível filtrar as entregas cadastradas por _range_ de _Data_, _Estado_, _Entregador_
 
-A lista das entregas deve atualizar automaticamente quando houver alguma alteração no banco destes campos.
+A lista das entregas deve atualizar automaticamente quando houver alguma alteração no banco destes dois campos. Por exemplo, caso o _estado_ da entrega torne-se diferente de Pendente ou o _local_ da entrega seja alterado.
 
 ## Dicas e diferenciais
 
